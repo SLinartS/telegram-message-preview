@@ -1,0 +1,29 @@
+# Dependencies and generated output
+node_modules/
+coverage/
+dist/
+build/
+.cache/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/.aws/
+/.agents/
+/.codex/
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

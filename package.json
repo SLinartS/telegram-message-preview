@@ -1,0 +1,17 @@
+{
+  "name": "telegram-message-preview",
+  "version": "1.0.0",
+  "description": "Local Telegram message preview with Markdown, HTML and Bot API HTML export",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check app.js && node --check formatter.js && node --check formatter.test.js && node --check server.mjs"
+  }
+}
