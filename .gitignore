@@ -3,6 +3,7 @@ node_modules/
 coverage/
 dist/
 build/
+_site/
 .cache/
 
 # Local configuration and credentials
